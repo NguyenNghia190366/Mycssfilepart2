@@ -1,0 +1,45 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #fad3d3;
+    justify-content: center;
+  }
+
+.tilte h1{
+    text-align: center;
+}
+.flex-container > div {
+    background-color: #fab4b4;
+    margin: 10px 20px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    a:link {
+        color: rgb(43, 23, 23);
+      }
+      
+      a:visited {
+        color: green;
+      }
+      
+      a:hover {
+        color: rgb(156, 94, 125);
+      }
+      
+
+      a:active {
+        color: rgb(238, 73, 180);
+      }
+}
+
+body{
+    background-color: rgb(255, 173, 164);
+}
+
+img{
+  padding: 10px 10px;
+  border-radius: 10px 10px; 
+  border-width: 10px;
+  border-style: solid;
+  border-color: #552b2b;
+}
